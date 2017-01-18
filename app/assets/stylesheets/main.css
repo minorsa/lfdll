@@ -1,0 +1,90 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*----main font styles----*/
+
+h1, h2, h3, p, a {
+  font-family: Open Sans, sans-serif;
+  }
+h1 {
+  font-family: 'Euphoria Script';
+	font-size: 40px;
+	color: #000;
+	position: relative;
+	top: 30%;
+
+}
+h2 {
+	font-size: 24px;
+	color: #000;
+}
+
+h3 {
+  font-size: 18px;
+  color: #000;
+}
+p {
+	font-size: 14px;
+	color: #BEBEBE;
+}
+
+a {
+  text-decoration:none;
+  font-size: 14px;
+  color: #000;
+  margin: 10px;
+}
+
+a:visited {
+  color:#57544B;
+}
+
+ul li {
+  list-style:none;
+  font-size: 14px;
+  color: #BEBEBE;
+    font-family: Open Sans, sans-serif;
+
+}
+/*----main page elements----*/
+
+
+.banner-image-properties {
+	height: 400px;
+	background-image: url('./images/moon2.jpg');
+    position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	@media(min-width: 600px)
+	  height: 300px;
+}
+
+.vcenter {
+	position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+ .navbar {
+    text-decoration:none;
+    text-align:center;
+
+
+ }
+
+
+ .introduction {
+  text-align:center;
+  margin-top:60px;
+  margin-bottom:60px;
+  margin-right: 200px;
+  margin-left: 200px;
+ }
+
