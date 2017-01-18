@@ -51,7 +51,7 @@ ul li {
 
 .banner-image-properties {
 	height: 400px;
-	background-image: url('./images/moon2.jpg');
+	background-image: url('../images/moon2.jpg');
     position: relative;
 	background-size: cover;
 	background-position: 50% 50%;
